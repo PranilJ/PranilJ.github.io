@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pranil Joshi Launches Site"
+title: ""Hank Quinlan, Horrible Cop, Launches Site""
 date: 2019-10-25
 ---
 
