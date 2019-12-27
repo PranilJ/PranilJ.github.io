@@ -3,7 +3,17 @@ body {
     width: 70%;
     background-color: #E5E5E5;
 }
-nav ul, footer ul {
+nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    /*float: left;*/
+    /*clear: left;*/
+    font-size: 30px;
+}
+
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -30,17 +40,9 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    border-top: 1.5px solid #d5d5d5;
+    font-size: 1em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
 
 
