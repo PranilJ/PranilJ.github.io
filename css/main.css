@@ -5,12 +5,16 @@ body {
 }
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 0;
     padding: 0px;
     list-style: none;
     font-weight: bold;
     /*float: left;*/
     /*clear: left;*/
     font-size: 30px;
+    overflow: hidden;
+    /*border-bottom: 1.5px solid #d5d5d5;*/
+
 }
 
 footer ul {
@@ -23,13 +27,27 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav ul li{
+    float: left;
+}
 a {
     text-decoration: none;
     color: #1E90FF;
 }
+
+
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    background-color: #D7DBDD;
+    /*color: #C70039;*/
 }
+nav li a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
